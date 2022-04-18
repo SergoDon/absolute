@@ -1,0 +1,41 @@
+.mainDiv{
+    height: 420px;
+    width: 420px;
+    background-color: aqua;
+    position: relative;
+    left: 200px;
+    top: 200px;
+}
+.mainDiv>div{
+  height: 200px;
+  width: 200px;
+}
+
+.one{
+  background-color: brown;
+  position: absolute;
+  top: -25%;
+  left: -25%;
+}
+
+.two{
+ background-color: bisque;
+ position: absolute;
+ top: -25%;
+ right: -25%;
+
+
+}
+
+.thre{
+    background-color: blue;
+    position: absolute;
+    bottom: -25%;
+    left: -25%;
+}
+.four{
+  background-color: rgb(252, 8, 8) ;
+  position: absolute;
+  bottom: -25%;
+  right:  -25%;
+}
